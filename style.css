@@ -26,7 +26,7 @@ nav ul li a{
     padding: 5px 0;
 }
 nav ul li a:hover{
-    color: #fd4766;
+    color: #1f1f25;
 }
 nav ul li a:after{
     content: "";
@@ -34,12 +34,12 @@ nav ul li a:after{
     left: 0;
     width: 0;
     height: 3px;
-    background: #fd4766;
+    background: #1f1f25;
     transition: .3s;
     bottom: 0;
 }
 nav ul li a:hover:after{
-    width: 100%;
+    width: 80%;
 }
 .hero{
     width: 100%;
@@ -58,8 +58,8 @@ nav ul li a:hover:after{
    flex: 1;
    object-fit: cover;
    max-height: 400px;
-   border-radius: 35px;
-   margin-left: 50px;
+   border-radius: 60px;
+   margin-left: 40px;
 }
 .content .title{
     color: #1f1f25;
@@ -86,6 +86,20 @@ nav ul li a:hover:after{
 .content p{
     width: 55%;
     color:#1f1f25;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: #1f1f25;
+    border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #fd4766;
+  font-weight: 600;
 }
